@@ -1,8 +1,8 @@
 <?php
-define( 'DB_NAME', 'partner-for-help' );
-define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', '' );
-define( 'DB_HOST', 'localhost' );
+define( 'DB_NAME', 'webart_partnerinhelp' );
+define( 'DB_USER', 'webart_partnerinhelp' );
+define( 'DB_PASSWORD', '/%dMYi[J8nM)Mxxj' );
+define( 'DB_HOST', '148.135.138.226' );
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 
@@ -16,6 +16,12 @@ define( 'LOGGED_IN_SALT',   'j#MFB_]dbRI&VS@Ne;%+-@w(;bZd*G,ze{w8&>!?p|iC=p*H@_<
 define( 'NONCE_SALT',       'b|Z5^|Tw{1gIF_aIXDCpD}925`03G|s&j=`>49dcSO4|5qlz*N_0,1@P:Re@a{q*' );
 
 $table_prefix = 'ch_';
+
+define('DISALLOW_FILE_EDIT', true);
+
+define( 'WP_HOME', 'https://partnerinhelp.webartlab.tech' );
+define( 'WP_SITEURL', 'https://partnerinhelp.webartlab.tech' );
+
 
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
