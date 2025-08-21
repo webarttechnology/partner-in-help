@@ -5,7 +5,7 @@ $we_serve_content = get_field('we_serve_content');
 $we_serve_button = get_field('we_serve_button');
 ?>
 <section class="banner">
-	<h1>hello</h1>
+	
 	<div class="butterfly-small"></div>
 	<div class="butterfly">
 		<img src="https://thechosenher.com/wp-content/uploads/2025/04/purple-butterfly.webp" alt="butterfly pic" />
@@ -66,6 +66,7 @@ $our_mission_button = get_field('our_mission_button');
 			<div class="row">
 				<div class="col-md-5">
 					<div class="banner-text">
+						<h1>hello</h1>
 						<h4 class="text-white">
 							<span class="image-side"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/design2.png" alt="decorative-image"/></span>
 							<?php echo $our_mission_heading; ?>
