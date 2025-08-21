@@ -27,25 +27,11 @@ if( !empty($image) ): ?>
 					<p><?php echo $footer_content; ?></p>
 					<?php endif; ?>
 					<div class="footer-icon">
-						<?php
-						if( have_rows('social','option') ):
-						while ( have_rows('social','option') ) : the_row();
-
-						$social_link = get_sub_field('social_link');
-						$social_icon = get_sub_field('social_icon');
-
-						if( $social_link ): 
-						$slink_url = $social_link['url'];
-						$slink_title = $social_link['title'];
-						$slink_target = $social_link['target'] ? $social_link['target'] : '_self';
-						?>
-						<a href="<?php echo esc_url( $slink_url ); ?>" target="<?php echo esc_attr( $slink_target ); ?>"><?php echo $social_icon; ?></a>
-						<?php endif; ?>                        
-						<?php
-						endwhile;
-						endif;
-						?>
-					</div>
+												<a href="https://www.instagram.com/" target="_blank"><i class="fa-classic fa-brands fa-instagram" aria-hidden="true"></i></a>
+						                        
+												<a href="https://www.linkedin.com/" target="_blank"><i class="fa-classic fa-brands fa-linkedin" aria-hidden="true"></i></a>
+						                        
+											</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
