@@ -19,8 +19,8 @@ $table_prefix = 'ch_';
 
 define('DISALLOW_FILE_EDIT', true);
 
-define( 'WP_HOME', 'https://partnerinhelp.webartlab.tech' );
-define( 'WP_SITEURL', 'https://partnerinhelp.webartlab.tech' );
+// define( 'WP_HOME', 'https://partnerinhelp.webartlab.tech' );
+// define( 'WP_SITEURL', 'https://partnerinhelp.webartlab.tech' );
 
 
 define( 'WP_DEBUG', true );

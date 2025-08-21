@@ -5,21 +5,21 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
+RewriteBase /partner-for-help/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /partner-for-help/index.php [L]
 </IfModule>
 
 # END WordPress
 
 # Wordfence WAF
 <IfModule LiteSpeed>
-php_value auto_prepend_file '/wordfence-waf.php'
+php_value auto_prepend_file '/home/dh_7mwz4a/dwstaging.link/cms/partner-for-help/wordfence-waf.php'
 </IfModule>
 <IfModule lsapi_module>
-php_value auto_prepend_file '/wordfence-waf.php'
+php_value auto_prepend_file '/home/dh_7mwz4a/dwstaging.link/cms/partner-for-help/wordfence-waf.php'
 </IfModule>
 <Files ".user.ini">
 <IfModule mod_authz_core.c>
