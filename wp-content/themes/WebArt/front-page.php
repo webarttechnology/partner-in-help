@@ -238,7 +238,7 @@ $donation_loop = get_field('donation_loop');
 			<div class="col-lg-10">
 				<h2 class="partnership-title animate__animated animate__fadeIn animate__delay-4s"><?php echo esc_html( get_field('collaboration_heading', 17) ); ?></h2>
 				<p class="partnership-text animate__animated animate__fadeInUp animate__delay-4s">
-					<?php echo esc_html( get_field('collaboration_description', 17) ); ?>
+					<?php echo ( get_field('collaboration_description', 17) ); ?>
 				</p>
 			</div>
 		</div>
